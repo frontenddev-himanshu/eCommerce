@@ -88,7 +88,7 @@
     }
 
     .nav-links {
-        background-color: #ffebeb;
+        background-color: #ffffff;
         backdrop-filter: blur(10px);
         height: 92vh;
         width: 55%;
@@ -273,8 +273,8 @@
     }
 
     .shop-box {
-        width: 150px;
-        height: 330px;
+        width: 170px;
+        height: 350px;
     }
 
     .t-shop2 {
