@@ -40,6 +40,18 @@
         margin-top: 3vh;
     }
 
+    .m-w {
+        width: 90%;
+    }
+
+    .m-w-box {
+        width: 610px;
+    }
+
+    .edition {
+        width: 90%;
+    }
+
 }
 
 
@@ -331,5 +343,51 @@
     }
 
     /* trendy page end */
+
+
+    /* men whomen  */
+
+    .m-w {
+        flex-wrap: wrap;
+        gap: 20px;
+        height: fit-content;
+    }
+
+    .m-w-box {
+        height: 250px;
+    }
+
+
+    .men {
+        background-color: #ebebeb;
+    }
+
+    .men img {
+        position: absolute;
+        left: 60px;
+    }
+
+    .m-w-content {
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .m-w-content h6 {
+        font-size: 0.6rem;
+    }
+
+    .m-w-content h4 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .m-w-content a {
+        font-size: 0.8rem;
+    }
+
+    /* men whomen end  */
+
+
+
 
 }

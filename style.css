@@ -453,12 +453,11 @@ nav {
     display: flex;
     justify-content: center;
     margin-top: 8vh;
-    margin-bottom: 50vh;
 }
 
 .trendy-con {
     width: 80%;
-    height: 100vh;
+    height: fit-content;
 }
 
 .t-hding {
@@ -666,3 +665,122 @@ nav {
 }
 
 /* trendy page end */
+
+
+
+
+
+
+/* men whomen */
+
+.m-w-con {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.m-w {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-w-box {
+    width: 745px;
+    height: 400px;
+    background-color: red;
+    overflow: hidden;
+    position: relative;
+}
+
+.m-w-box img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.m-w-box:hover img {
+    scale: 1.02;
+}
+
+.m-w-content {
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+    width: fit-content;
+}
+
+.m-w-content h6 {
+    font-size: 0.9rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.m-w-content h4 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.m-w-content a {
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.m-w-content .m-w-bdr {
+    width: 20%;
+    height: 2px;
+    background: #ffffff;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+.m-w-box:hover .m-w-bdr {
+    width: 30%;
+}
+
+.m-content h6 {
+    color: #262626;
+}
+
+.m-content h4 {
+    color: black;
+}
+
+.m-content a {
+    color: #262626;
+}
+
+.m-content a .m-w-bdr {
+    background-color: black;
+}
+
+/* men whomen end */
+
+
+
+
+
+
+
+/* edition */
+
+.edition-con {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.edition {
+    width: 80%;
+    height: fit-content;
+}
+
+/* edition end */
