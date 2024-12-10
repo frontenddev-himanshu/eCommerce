@@ -31,7 +31,9 @@ window.addEventListener("scroll", function () {
 
 // swiper js
 const progressCircle = document.querySelector(".autoplay-progress svg");
+
 const progressContent = document.querySelector(".autoplay-progress span");
+
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   centeredSlides: true,
@@ -54,3 +56,7 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+
+// aos
+AOS.init();
