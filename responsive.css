@@ -52,6 +52,20 @@
         width: 90%;
     }
 
+    .contact {
+        width: 90%;
+    }
+
+    .footer-con {
+        width: 90%;
+    }
+
+    .c-right-con {
+        width: 90%;
+    }
+
+
+
 }
 
 
@@ -385,9 +399,98 @@
         font-size: 0.8rem;
     }
 
+    .l-2 {
+        display: none;
+    }
+
+    .l-3 {
+        display: none;
+    }
+
+    .l-4 {
+        display: none;
+    }
+
+    .l-res {
+        width: 100%;
+        height: 550px;
+    }
+
     /* men whomen end  */
 
 
 
 
+    /* contact */
+
+    .contact-con {
+        margin-top: 10vh;
+    }
+
+    .c-details {
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .c-heading {
+        margin-bottom: 50px;
+    }
+
+    /* contact end */
+
+
+
+
+    /* footer */
+    footer {
+        height: fit-content;
+    }
+
+    .footer-con {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .f-l-main {
+        height: fit-content;
+    }
+
+    .f-l-main {
+        flex-direction: column;
+    }
+
+    .footer-link {
+        height: fit-content;
+        margin-bottom: 25px;
+    }
+
+    .l-1 {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .c-right-con {
+        width: 90%;
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .c-right {
+        margin: 20px 0px;
+    }
+
+    .c-1 {
+        height: fit-content;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .c-2 {
+        text-align: center;
+        margin-top: 8px;
+    }
+
+
 }
+
+/* footer end */
